@@ -1,44 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3 align="center">
 
-In the project directory, you can run:
+My Todo MobX é um projeto **Open Source** desenvolvido a fim de aprimorar minhas habilidades em ***TypeScript, React, MobX, MobX-react***.
 
-### `npm start`
+</h3>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **:rocket: OBJETIVO**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+O projeto tem como finalidade fazer o gerenciamento de estado utilizando a biblioteca MobX.
 
-### `npm test`
+## **:computer: TECNOLOGIAS**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### **Website** ([React][react] + [TypeScript][typescript])
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - **[mobX][mobX]**
+  - **[Material UI][materialUi]**
+  - **[React_toastufy][reactToastify]**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+  \* Veja o arquivo <kbd>[package.json](./sources/website/package.json)</kbd>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## **:wine_glass: COMO UTILIZAR**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Configurações Iniciais
 
-## Learn More
+Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[asdf]</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
+
+Após ter o **Node** instalado, instale as dependências do **React** de forma global, utilizando os comandos:
+
+```sh
+# React:
+$ npm install create-react-app -g
+
+
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits). Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+
+```sh
+$ npm install
+
+# ou
+$ yarn
+```
+
+Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>
+
+
+## **:books: REFERÊNCIAS**
+
+- [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+
+- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
+- [TypeScript](https://www.typescriptlang.org/docs/home.html)
+
+## **:page_with_curl: LICENÇA**
+
+Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
+
+<h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/wendell-eloi-1a5324168/">Wendell Eloi</a></h2>
+
+
+<!-- Techs -->
+
+[react]: https://reactjs.org/
+
+[typescript]: https://www.typescriptlang.org/
+
+[vscode]: https://code.visualstudio.com/
+
+[mobX]: https://mobx.js.org/
+
+[materialUi]: https://material-ui.com/
+
+[reactToastify]: https://www.npmjs.com/package/react-toastify
